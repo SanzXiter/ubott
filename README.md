@@ -3,7 +3,7 @@
 apt update && apt upgrade -y && add-apt-repository 'ppa:deadsnakes/ppa'
 ```
 ```
-git clone https://(token)@github.com/(usn git)/(nama repo).git
+git clone https://(token)@github.com/(usn github)/(nama repo).git
 ```
 ```
 cd ubotlite && screen -S ubotlite

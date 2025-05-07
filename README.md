@@ -6,7 +6,7 @@ apt update && apt upgrade -y && add-apt-repository 'ppa:deadsnakes/ppa'
 git clone https://(token)@github.com/(usn github)/(nama repo).git
 ```
 ```
-cd ubot && screen -S ubot
+cd (nama repo) && screen -S ubot
 ```
 ```
 cp sample.env .env && apt install ffmpeg -y && bash installnode.sh

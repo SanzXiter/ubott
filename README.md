@@ -6,7 +6,7 @@ apt update && apt upgrade -y && add-apt-repository 'ppa:deadsnakes/ppa'
 git clone https://(token)@github.com/(usn github)/(nama repo).git
 ```
 ```
-cd ubotlite && screen -S ubotlite
+cd ubot && screen -S ubot
 ```
 ```
 cp sample.env .env && apt install ffmpeg -y && bash installnode.sh
@@ -22,7 +22,7 @@ natz/bin/python -m PyroUbot
 ```
 ## Menghidupan jika ubot mati
 ```
-cd ubotlite && killall screen && screen -S ubotlite
+cd ubot && killall screen && screen -S ubot
 ```
 ``` 
 natz/bin/python -m PyroUbot
